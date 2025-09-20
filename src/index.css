@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color: #22262A;
+    max-width: 1499px;
+    margin: auto;
+    overflow-x: hidden;
+}

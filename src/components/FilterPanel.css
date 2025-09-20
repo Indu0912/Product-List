@@ -1,0 +1,25 @@
+@media (max-width:1268px){
+    .items,.price{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .cart-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width:950px) {
+    .items,.price{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .cart-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width:756px) {
+    .filter{
+        display: none;
+    }
+}

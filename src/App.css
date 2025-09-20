@@ -1,0 +1,16 @@
+.main-section,.divider{
+    max-width: 1499px;
+    margin: auto;
+}
+.divider{
+    margin-top: 90px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:760px) {
+    .divider{
+        display: none;
+    }
+}

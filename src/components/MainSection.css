@@ -1,0 +1,127 @@
+.main{
+    padding: 20px;
+    padding-left: 0;
+    max-width: 1069px;
+    margin-top: 10px;
+}
+.main-container1{
+    height: 350px;
+    background-color: #3fbffe;
+    padding: 95px 10px 10px 60px;
+    width: 100%;
+
+}
+.left-box{
+    max-width: 390px;
+    height:137px;
+    width: 100%;
+}
+.right-box{
+max-width: 442px;
+height: 221px;
+width: 100%;
+}
+.main-container2{
+    width: 100%;
+    height: 62px;
+    background-color: #F6F7F8;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.left-side-box{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+.card-container{
+    max-width: 1069px;
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    row-gap: 30px;
+}
+.boxes{
+    max-width: 69px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1000px) {
+.main{
+    padding: 20px;
+}
+}
+@media (max-width:800px) {
+    .card-container{
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 1268px) {
+    .main{
+        width: 100%;
+    }
+    .main-container2{
+        width: 100% !important;
+    }
+    .left-side-box{
+        width: 100%;
+        font-size: 10px;
+    }
+    .right-box{
+        width: 100%;
+    }
+    .sortby{
+        margin-left: 12px;
+    }
+}
+@media (max-width:630px) {
+    .main-container1,.main-container2{
+        display: none;
+    }
+    .main-container3{
+        margin-top: 140px;
+    }
+}
+.superflash{
+    width: 100%;
+    height: 296px;
+}
+@media (max-width:756px) {
+    .main-container1{
+        display: none;
+    }
+    .main-container2{
+        display: none;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card-container{
+    grid-template-columns: 1fr;
+}
+.superflash,.category,.categories,.recommend{
+    display: block;
+}
+.main-container3{
+    margin-top: 10px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media (max-width:640px) {
+    .manshoes{
+        display: none;
+    }
+}
