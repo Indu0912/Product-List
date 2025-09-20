@@ -4,7 +4,7 @@ import Icon from '../../images/Icon.svg'
 import facebook from '../../images/facebook.svg'
 import twitter from '../../images/twitter.svg'
 import circle from '../../images/cardCircle.svg'
-import paypal from '../../images/paypal.svg'
+import paypal from '../../images/Paypal.svg'
 import WesternUnion from '../../images/WesternUnion.svg'
 import cardtext from '../../images/cardtext.svg'
  const Footer = () => {
